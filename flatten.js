@@ -6,7 +6,6 @@
 //             console.log(arr[i])
 //             count++
 //             flatten(arr[i])
-            
 //         }
 //     }
 //     return count
@@ -23,7 +22,7 @@ function flatten1(arr) {
         } else {
             newArr = [...newArr, element]
         }
-    
+        console.log(element)
     });  
     return newArr
 }
